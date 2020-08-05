@@ -76,9 +76,9 @@ get "home/index"  <!-- 削除 -->
 
 ## Copy 4 files on your files
 - [app/javascript/packs/hello_vue.js](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/packs/hello_vue.js)
-- app/views/home/index.html.erb(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/views/home/index.html.erb)
-- app/assets/stylesheets/home.scss(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/assets/stylesheets/home.scss)
-- app/javascript/app.vue(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/app.vue)
+- [app/views/home/index.html.erb](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/views/home/index.html.erb)
+- [app/assets/stylesheets/home.scss](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/assets/stylesheets/home.scss)
+- [app/javascript/app.vue](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/app.vue)
 
 ## Today's Goal
 1. コードをカスタマイズし、タスク管理アプリにする
