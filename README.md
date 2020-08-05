@@ -25,9 +25,8 @@ gem install rails -v 5.2.4
 ### step3: Create new app  
 1. rails newに--webpack=vueオプションを付けて、プロジェクトの作成時にVue.jsもインストールする方法
 2. rails newに--webpackオプションを付けて、プロジェクト作成時にwebpackもインストールし、Vue.jsを後からインストールする方法
-3. rails newして、その後にWebpackerとVue.jsをインストールする方法
-3種類の方法がありますが、ワークでは、3の方法で行いましょう。  
--d postgresqlオプションは不要です。
+3. rails newして、その後にWebpackerとVue.jsをインストールする方法  
+3種類の方法がありますが、ワークでは3の方法で行います。-d postgresqlオプションは不要です。
 ```
 rails _5.2.4_ new rails-vue
 ```
