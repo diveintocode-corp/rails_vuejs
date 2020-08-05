@@ -1,6 +1,6 @@
 
+import Vue from 'vue/dist/vue.esm';
 import App from '../app.vue'
-import Vue from 'vue/dist/vue.esm.js'
 
 Vue.component('demo-grid', {
   template: '#grid-template',
@@ -66,7 +66,11 @@ var demo = new Vue({
       { name: 'Chuck Norris', power: Infinity },
       { name: 'Bruce Lee', power: 9000 },
       { name: 'Jackie Chan', power: 7000 },
-      { name: 'Jet Li', power: 8000 }
+      { name: 'Jet Li', power: 8000 },
+      { name: 'Yuki', power: 8000 },
+      { name: 'Iseki', power: 8000 },
+      { name: 'Tamura', power: 8000 },
+      { name: 'Noro', power: 8000 }
     ]
   }
 })
