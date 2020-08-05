@@ -53,7 +53,7 @@ bin/rails webpacker:install
 rails webpacker:install:vue
 ```
 
-### step7: To be able to use webpack  
+### step7: Be able to use webpack  
 `layouts/application.html.erb`
 ```
 <body>
