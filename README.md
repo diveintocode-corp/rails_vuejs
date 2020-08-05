@@ -1,5 +1,5 @@
 ## Vue.js 実装ワーク
-ruby 2.4.0
+ruby 2.4.0  
 rails 5.2.4
 
 ## How to Setup
@@ -20,29 +20,41 @@ Install 5.2.4 if you don't have it
 ```
 gem install rails -v 5.2.4
 ```
+5.2.4系であれば、パッチは問わない。
 
-step3: Create new app
-```
-rails _5.2.4_ new rails-vue
-```
+step3: Create new app  
 1. rails newに--webpack=vueオプションを付けて、プロジェクトの作成時にVue.jsもインストールする方法
 2. rails newに--webpackオプションを付けて、プロジェクト作成時にwebpackもインストールし、Vue.jsを後からインストールする方法
 3. rails newして、その後にWebpackerとVue.jsをインストールする方法
-3種類の方法がありますが、ワークでは、3の方法で行いましょう。
+3種類の方法がありますが、ワークでは、3の方法で行いましょう。  
 -d postgresqlオプションは不要です。
+```
+rails _5.2.4_ new rails-vue
+```
+5.2.4系であれば、パッチは問わない。
 
-step4: Install gem webpaker
-Gemfile
+step4: Install gem webpaker  
+`Gemfile`
 ```
 gem 'webpacker', github: 'rails/webpacker'
 ```
-On Terminal
+On Terminal  
 ```
 bundle install
 ```
 
-step5: To be able to use webpack
-layouts/application.html.erb
+step5: Install webpacker
+```
+bin/rails webpacker:install
+```
+
+step6: Install Vue.js
+```
+rails webpacker:install:vue
+```
+
+step7: To be able to use webpack  
+`layouts/application.html.erb`
 ```
 <body>
   <%= yield %>
@@ -50,23 +62,23 @@ layouts/application.html.erb
 </body>
 ```
 
-step6: Create top page
+step8: Create top page
 ```
 rails g controller Home index
 ```
 
-step7: Implement route
-route.rb
+step9: Implement route
+`route.rb`
 ```
 root to: 'home#index'  <!-- 追加 -->
-get "home/top" => "home#top"  <!-- 削除 -->
+get "home/index"  <!-- 削除 -->
 ```
 
-## Copy 4files on your files
-### app/javascript/packs/hello_vue.js
-### app/views/home/index.html.erb
-### app/assets/stylesheets/home.scss
-### app/javascript/app.vue
+## Copy 4 files on your files
+- [app/javascript/packs/hello_vue.js](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/packs/hello_vue.js)
+- app/views/home/index.html.erb(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/views/home/index.html.erb)
+- app/assets/stylesheets/home.scss(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/assets/stylesheets/home.scss)
+- app/javascript/app.vue(https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/app.vue)
 
 ## Today's Goal
 1. コードをカスタマイズし、タスク管理アプリにする
