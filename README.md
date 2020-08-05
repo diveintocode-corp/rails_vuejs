@@ -79,7 +79,8 @@ get "home/index"  <!-- 削除 -->
 - [app/views/home/index.html.erb](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/views/home/index.html.erb)
 - [app/assets/stylesheets/home.scss](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/assets/stylesheets/home.scss)
 
-右上のRAWボタンを押すと、プレーンなページ開きます。コピーに便利です。
+右上のRawボタンを押すと、プレーンなページ開きます。コピーに便利です。
+[![Image from Gyazo](https://t.gyazo.com/teams/diveintocode/f0a5146eccdef73c1a0a060bc482b73f.png)](https://diveintocode.gyazo.com/f0a5146eccdef73c1a0a060bc482b73f)
 
 ## Compile JS file
 ```
