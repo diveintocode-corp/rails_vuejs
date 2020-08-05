@@ -3,7 +3,7 @@ ruby 2.6.3
 rails 5.2.4
 
 ## How to Setup
-step1: check your ruby version
+### step1: check your ruby version
 ```
 rbenv versions
 ```
@@ -12,7 +12,7 @@ Install 2.6.3 if you don't have it
 rbenv install 2.6.3
 ```
 
-step2: check your rails version
+### step2: check your rails version
 ```
 gem list rails
 ```
@@ -22,7 +22,7 @@ gem install rails -v 5.2.4
 ```
 5.2.4系であれば、パッチは問わない。
 
-step3: Create new app  
+### step3: Create new app  
 1. rails newに--webpack=vueオプションを付けて、プロジェクトの作成時にVue.jsもインストールする方法
 2. rails newに--webpackオプションを付けて、プロジェクト作成時にwebpackもインストールし、Vue.jsを後からインストールする方法
 3. rails newして、その後にWebpackerとVue.jsをインストールする方法
@@ -33,7 +33,7 @@ rails _5.2.4_ new rails-vue
 ```
 5.2.4系であれば、パッチは問わない。
 
-step4: Install gem webpaker  
+### step4: Install gem webpaker  
 `Gemfile`
 ```
 gem 'webpacker', github: 'rails/webpacker'
@@ -43,17 +43,17 @@ On Terminal
 bundle install
 ```
 
-step5: Install webpacker
+### step5: Install webpacker
 ```
 bin/rails webpacker:install
 ```
 
-step6: Install Vue.js
+### step6: Install Vue.js
 ```
 rails webpacker:install:vue
 ```
 
-step7: To be able to use webpack  
+### step7: To be able to use webpack  
 `layouts/application.html.erb`
 ```
 <body>
@@ -62,12 +62,12 @@ step7: To be able to use webpack
 </body>
 ```
 
-step8: Create top page
+### step8: Create top page
 ```
 rails g controller Home index
 ```
 
-step9: Implement route
+### step9: Implement route
 `route.rb`
 ```
 root to: 'home#index'  <!-- 追加 -->
