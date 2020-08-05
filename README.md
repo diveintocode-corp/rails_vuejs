@@ -81,7 +81,20 @@ get "home/index"  <!-- 削除 -->
 
 右上のRAWボタンを押すと、プレーンなページ開きます。コピーに便利です。
 
-## Compule JS file
+## Compile JS file
+```
+bin/webpack
+```
+
+## Start server
+```
+rails s
+```
+
+## Open browser
+```
+http://localhost:3000
+```
 
 ## Today's Goal
 1. コードをカスタマイズし、タスク管理アプリにする  
