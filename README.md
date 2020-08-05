@@ -1,5 +1,5 @@
 ## Vue.js 実装ワーク
-ruby 2.4.0  
+ruby 2.6.3  
 rails 5.2.4
 
 ## How to Setup
@@ -7,9 +7,9 @@ step1: check your ruby version
 ```
 rbenv versions
 ```
-Install 2.4.0 if you don't have it
+Install 2.6.3 if you don't have it
 ```
-rbenv install 2.4.0
+rbenv install 2.6.3
 ```
 
 step2: check your rails version
