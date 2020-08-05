@@ -67,10 +67,6 @@ var demo = new Vue({
       { name: 'Bruce Lee', power: 9000 },
       { name: 'Jackie Chan', power: 7000 },
       { name: 'Jet Li', power: 8000 },
-      { name: 'Yuki', power: 8000 },
-      { name: 'Iseki', power: 8000 },
-      { name: 'Tamura', power: 8000 },
-      { name: 'Noro', power: 8000 }
     ]
   }
 })
