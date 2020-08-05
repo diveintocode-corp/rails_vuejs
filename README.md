@@ -78,22 +78,25 @@ get "home/index"  <!-- 削除 -->
 - [app/javascript/packs/hello_vue.js](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/packs/hello_vue.js)
 - [app/views/home/index.html.erb](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/views/home/index.html.erb)
 - [app/assets/stylesheets/home.scss](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/assets/stylesheets/home.scss)
-- [app/javascript/app.vue](https://github.com/diveintocode-corp/rails_vuejs/blob/master/app/javascript/app.vue)
+
+右上のRAWボタンを押すと、プレーンなページ開きます。コピーに便利です。
+
+## Compule JS file
 
 ## Today's Goal
-1. コードをカスタマイズし、タスク管理アプリにする
+1. コードをカスタマイズし、タスク管理アプリにする  
 例：
   - 表示内容の変更（ex. Name⇨タスク名）
   - タスクの追加ができる
   - タスクの削除ができる
 
-2. webpack-dev-serverを有効にし、railsサーバーを立ち上げると自動コンパイルができる
-参考記事
+2. webpack-dev-serverを有効にし、railsサーバーを立ち上げると自動コンパイルができる  
+参考記事  
 [webpack-dev-serverを有効にする
 ](https://qiita.com/jnchito/items/30ab14ebf29b945559f6#webpack-dev-server%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B)
 
-3. Herokuにデプロイする
-Herokuでは、データベースはpostgresqlを推奨しています。
-利用するデータベースを変更し、デプロイしましょう。
-参考記事
+3. Herokuにデプロイする  
+Herokuでは、データベースはpostgresqlを推奨しています。  
+利用するデータベースを変更し、デプロイしましょう。  
+参考記事  
 [Herokuへのデプロイ](https://qiita.com/jnchito/items/30ab14ebf29b945559f6#heroku%E3%81%B8%E3%81%AE%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)
